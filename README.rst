@@ -21,7 +21,7 @@ recording, and streaming video content, efficiently.
 
 It's distributed under the GNU General Public License v2 (or any later
 version) - see the accompanying COPYING file for more details.
----------------------------------------
+---------------------------------------------------------------------------------
 ---------------------BUILD ON MANJARO LINUX (portable)---------------------------
 yay -S nlohmann (dependency for cmake)
 
