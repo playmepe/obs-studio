@@ -21,16 +21,23 @@ recording, and streaming video content, efficiently.
 
 It's distributed under the GNU General Public License v2 (or any later
 version) - see the accompanying COPYING file for more details.
-------------
+-------------------------------------------------------------------------------------
 BUILD ON MANJARO LINUX (portable)
-wget https://cdn-fastly.obsproject.com/downloads/cef_binary_5060_linux64.tar.bz2
-tar -xjf ./cef_binary_5060_linux64.tar.bz2
-git clone --recursive https://github.com/obsproject/obs-studio.git
-cd obs-studio
-mkdir build && cd build
- cmake -DLINUX_PORTABLE=ON -DCMAKE_INSTALL_PREFIX="${HOME}/obs-studio-portable" -DENABLE_BROWSER=ON -DCEF_ROOT_DIR="../../cef_binary_5060_linux64" -DENABLE_AJA=OFF -DENABLE_WEBSOCKET=OFF ..
-make -j4 && make install
 
+wget https://cdn-fastly.obsproject.com/downloads/cef_binary_5060_linux64.tar.bz2
+
+tar -xjf ./cef_binary_5060_linux64.tar.bz2
+
+git clone --recursive https://github.com/obsproject/obs-studio.git
+
+cd obs-studio
+
+mkdir build && cd build
+
+ cmake -DLINUX_PORTABLE=ON -DCMAKE_INSTALL_PREFIX="${HOME}/obs-studio-portable" -DENABLE_BROWSER=ON -DCEF_ROOT_DIR="../../cef_binary_5060_linux64" -DENABLE_AJA=OFF -DENABLE_WEBSOCKET=OFF ..
+ 
+make -j4 && make install
+----------------------------------------------------------------------------------
 Quick Links
 -----------
 
