@@ -38,7 +38,7 @@ mkdir build && cd build
  
 make -j4 && make install
 ----------------------------------------------------------------------------------
-
+After that, you should have a portable install in ~/obs-studio-portable. Change to bin/64bit or bin/32bit and then simply run: ./obs
 ----------------------------------------------------------------------------------
 Quick Links
 -----------
