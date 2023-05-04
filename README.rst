@@ -23,7 +23,7 @@ It's distributed under the GNU General Public License v2 (or any later
 version) - see the accompanying COPYING file for more details.
 ---------------------------------------------------------------------------------
 ---------------------BUILD ON MANJARO LINUX (portable)---------------------------
-yay -S nlohmann (dependency for cmake)
+yay -S nlohmann librist vlc qt6 (dependency for cmake)
 
 wget https://cdn-fastly.obsproject.com/downloads/cef_binary_5060_linux64.tar.bz2
 
