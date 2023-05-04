@@ -43,11 +43,9 @@ After that, you should have a portable install in ~/obs-studio-portable. Change 
 sudo mv obs-studio-portable /usr/local/obs-studio
 sudo mv /usr/bin/obs /usr/bin/obs.bak
 sudo nano /usr/bin/obs 
-#######
 !#
 cd /usr/local/obs-studio/bin/64bit/
 ./obs
-#######
 ----------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------
