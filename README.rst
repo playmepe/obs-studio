@@ -42,8 +42,12 @@ make -j4 && make install
 After that, you should have a portable install in ~/obs-studio-portable. Change to bin/64bit or bin/32bit and then simply run: ./obs
 sudo mv obs-studio-portable /usr/local/obs-studio
 sudo mv /usr/bin/obs /usr/bin/obs.bak
-sudo ln /usr/local/obs-studio/bin/64bit/obs /usr/bin/obs   
-
+sudo nano /usr/bin/obs 
+#######
+!#
+cd /usr/local/obs-studio/bin/64bit/
+./obs
+#######
 ----------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------
